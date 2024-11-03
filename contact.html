@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .contact-form, .contact-info, .map {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #00aaff;
+            margin-bottom: 20px;
+        }
+
+        
+        .contact-form form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(12, 10, 10, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .form-group input, 
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+        }
+
+        .submit-btn {
+            background-color: #00aaff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+
+        .submit-btn:hover {
+            background-color: #008fcc;
+        }
+
+        
+        .contact-info {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-grid {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .info-item {
+            flex: 1;
+        }
+
+        .info-item h3 {
+            margin-bottom: 10px;
+            color: #00aaff;
+        }
+
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+        }
+        footer p {
+            font-size: 0.9em;
+        }
+        .github-link:hover {
+            color: #008fcc;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Contact Us</h1>
+            <p>We would love to hear from you!</p>
+        </header>
+
+        <section class="contact-form">
+            <h2>Get In Touch</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <h3>Address</h3>
+                    <p>Pagwara,jalandhar city,punjab,india</p>
+                </div>
+                <div class="info-item">
+                    <h3>Phone</h3>
+                    <p>8688893887</p>
+                </div>
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <p>isk66851@gmail.com</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+           
+        </footer>
+    </div>
+</body>
+</html>

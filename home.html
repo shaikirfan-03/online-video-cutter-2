@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Video Cutter</title>
+    <style>
+        body {
+            background-image: url(v\ logo.jpg);
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007bff; 
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #0056b3; 
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        h2 {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: normal;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .feature {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            padding: 20px;
+            width: calc(30% - 40px); 
+            transition: transform 0.3s;
+            text-align: center;
+        }
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+            height: 150px; 
+            object-fit: cover;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 20px auto;
+            transition: background-color 0.3s;
+            
+        }
+        .cta-button:hover {
+            background-color: #0056b3; 
+            
+        }
+         
+         
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007BFF;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .feature {
+                width: calc(45% - 40px); 
+            }
+        }
+        @media (max-width: 480px) {
+            .feature {
+                width: calc(100% - 40px); 
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Online Video Cutter</h1>
+    <h2>Your Simple Tool for Quick Video Edits</h2>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="sign.html">Sign in</a>
+</nav>
+
+<div class="container">
+    <div class="feature">
+        <img src="video-edit.jpg" alt="Cut Videos">
+        <h3>Cut Videos</h3>
+        <p>Easily cut and trim your videos to keep only the best parts.</p>
+    </div>
+    <div class="feature">
+        <img src="trim img.png" alt="Trim Videos">
+        <h3>Trim Videos</h3>
+        <p>Adjust the start and end points of your clips effortlessly.</p>
+    </div>
+    <div class="feature">
+        <img src="merge-video.png" alt="Merging">
+        <h3>Merging</h3>
+        <p>Merge multiple clips into a single video seamlessly.</p>
+    </div>
+    <div class="feature">
+        <img src="export.png" alt="Export Options">
+        <h3>Export Options</h3>
+        <p>Choose the best format for your videos after editing.</p>
+    </div>
+    <div class="feature">
+        <img src="user-friendly-on-keyboard.jpg" alt="User Friendly">
+        <h3>User-Friendly</h3>
+        <p>Designed for everyone, no experience required.</p>
+    </div>
+</div>
+
+<a href="#" class="cta-button">Start Editing Now!</a><br>
+
+<footer>
+    <p>&copy; 2024 Online Video Cutter. All Rights Reserved.</p>
+    
+
+    </footer>
+
+</body>
+</html>
